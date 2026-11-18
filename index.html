@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campfire Bandits – Handmade Acoustic Rock & Pub Classics</title>
+  <meta name="description" content="Campfire Bandits: Ehrliche Live-Musik, raue Stimmen und echte Kneipenatmosphäre.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@600;800&family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,400&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Embers Canvas Background -->
+  <canvas id="emberCanvas"></canvas>
+
+  <!-- Clean Header (No subpage navigation) -->
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="brand-logo">
+        <span class="logo-icon">🎸</span>
+        <span class="logo-text">CAMPFIRE BANDITS</span>
+      </div>
+      <div class="header-status">
+        <span class="pulse-dot"></span>
+        <span class="status-label">OFFICIAL SITE</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Hero Startseite -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-bg-overlay"></div>
+      
+      <div class="hero-content">
+        <div class="badge-tag">
+          <span class="badge-flame">🔥</span>
+          <span>HANDMADE ACOUSTIC ROCK & PUB CLASSICS</span>
+        </div>
+
+        <h1 class="band-title">
+          <span class="title-top">THE</span>
+          <span class="title-main">CAMPFIRE BANDITS</span>
+        </h1>
+
+        <p class="hero-tagline">
+          Ehrlicher Akustik-Rock, raue Stimmen und echte Kneipenatmosphäre.<br>
+          Handgemachte Musik – direkt, warm und unverfälscht.
+        </p>
+
+        <!-- Interactive Audio Ambient Bar -->
+        <div class="ambient-player" id="ambientPlayer">
+          <button class="audio-btn" id="audioToggleBtn" title="Kneipen-Soundscape starten / stoppen" aria-label="Audio abspielen">
+            <span class="audio-icon" id="audioIcon">▶</span>
+          </button>
+          <div class="audio-info">
+            <span class="audio-title">Kneipen-Soundscape & Akustik-Akkorde</span>
+            <span class="audio-status" id="audioStatus">Klicken zum Reinhören</span>
+          </div>
+          <div class="audio-equalizer" id="equalizer">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <!-- Action / Contact Button -->
+        <div class="hero-actions">
+          <a href="mailto:booking@juliejung.de?subject=Anfrage%20Campfire%20Bandits" class="btn btn-primary">
+            <span>✉️ Kontakt & Buchungsanfrage</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (No external page links) -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">🎸</span>
+        <strong>CAMPFIRE BANDITS</strong>
+      </div>
+      <div class="footer-right">
+        <span class="footer-copy">© 2026 Campfire Bandits.</span>
+        <a href="intern.php" class="intern-link" title="Zum internen Mitgliederbereich">🔒 Intern</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
